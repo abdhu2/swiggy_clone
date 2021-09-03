@@ -246,8 +246,63 @@ body {
     position: relative;
   }
   .carosal_img {
-    height: 450px;
+    height: 550px;
     width: 100%;
+  }
+  .body_section_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2b1e16;
+  }
+  .section_card {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card1_pic,
+  .card2_pic,
+  .card3_pic {
+    height: 200px;
+    width: 250px;
+    border-radius: 50%;
+  }
+  .sec_card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sec_card2 {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sec_card3 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section_card h3 {
+    padding-top: 20px;
+    font-size: 26px;
+    color: aliceblue;
+  }
+  .section_card p {
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 22px;
+    color: aliceblue;
   }
 }
 
@@ -258,6 +313,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 67px;
   }
   .header_side_carosal {
     padding-top: 0px;
@@ -355,5 +411,63 @@ body {
     width: 100%;
     font-size: 16px;
     color: dimgrey;
+  }
+  /* .container {
+  } */
+  .body_section_1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #2b1e16;
+  }
+  .section_card {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  .card1_pic,
+  .card2_pic,
+  .card3_pic {
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  .sec_card1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+  }
+  .sec_card2 {
+    padding-top: 4px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .sec_card3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section_card h3 {
+    padding-top: 20px;
+    font-size: 18px;
+    color: aliceblue;
+  }
+  .section_card p {
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+    color: aliceblue;
   }
 }
