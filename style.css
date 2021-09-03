@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0px 5px;
 }
 
 .logo_btn {
@@ -90,6 +91,74 @@ body {
 }
 .header_bottom_txt p {
   color: dimgrey;
+  font-size: 14px;
+}
+.header_side_carosal {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.carosal_img {
+  height: 250px;
+  width: 100%;
+}
+.body_section_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2b1e16;
+}
+.section_card {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card1_pic,
+.card2_pic,
+.card3_pic {
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+.sec_card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec_card2 {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec_card3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_card h3 {
+  padding-top: 20px;
+  font-size: 18px;
+  color: aliceblue;
+}
+.section_card p {
+  padding-top: 10px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  color: aliceblue;
 }
 
 /* MEDIA QUAREY i pad*/
@@ -124,6 +193,33 @@ body {
     font-weight: 1000;
     font-size: 25px;
   }
+  .header_heading h2 {
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: 1000;
+  }
+  .header_heading p {
+    padding-top: 10px;
+    font-weight: 400px;
+    color: orangered;
+    font-size: 30px;
+  }
+  .search_bar {
+    height: 80px;
+    width: 400px;
+    border: 4px orangered solid;
+    border-right: none;
+    font-size: 20px;
+  }
+  .search_find_btn {
+    width: 150px;
+    background-color: orangered;
+    color: aliceblue;
+    font-weight: bold;
+    border-left: none;
+    border: 4px orangered solid;
+    font-size: 20px;
+  }
 
   .header_bottom_txt {
     padding-top: 70px;
@@ -141,6 +237,18 @@ body {
     font-size: 23px;
     color: dimgrey;
   }
+  .header_side_carosal {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+  }
+  .carosal_img {
+    height: 450px;
+    width: 100%;
+  }
 }
 
 /* MEDIA QUAREY laptop*/
@@ -152,6 +260,7 @@ body {
     justify-content: space-between;
   }
   .header_side_carosal {
+    padding-top: 0px;
     position: relative;
     width: 50%;
   }
