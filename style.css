@@ -412,8 +412,7 @@ body {
     font-size: 16px;
     color: dimgrey;
   }
-  /* .container {
-  } */
+
   .body_section_1 {
     display: flex;
     flex-direction: row;
