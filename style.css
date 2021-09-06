@@ -50,9 +50,7 @@ body {
   font-weight: 800;
   font-size: 18px;
 }
-/* .container {
-  padding: 0px 20px;
-} */
+
 .header_heading h2 {
   padding-top: 30px;
 }
@@ -159,6 +157,37 @@ body {
   padding-right: 10px;
   font-size: 14px;
   color: aliceblue;
+}
+.details_menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.body_section_2 {
+  padding-top: 30px;
+  margin: 10px;
+  padding-left: 10px;
+}
+.play_apple_store img {
+  height: 40px;
+  width: 155px;
+  border-radius: 5px;
+}
+.play_apple_store p {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: darkgray;
+}
+.phone_pic img {
+  margin-left: 15px;
+  margin-top: 10px;
+  padding-top: 30px;
+  padding: 10px;
+  width: 300px;
+  height: 450px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 /* MEDIA QUAREY i pad*/
@@ -304,6 +333,41 @@ body {
     font-size: 22px;
     color: aliceblue;
   }
+  .details_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .body_section_2 {
+    padding-top: 30px;
+    margin: 10px;
+    padding-left: 10px;
+  }
+  .play_apple_store img {
+    height: 100px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  .play_apple_store h1 {
+    font-size: 40px;
+  }
+  .play_apple_store p {
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: darkgray;
+  }
+  .phone_pic img {
+    margin-left: 150px;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding: 10px;
+    width: 400px;
+    height: 550px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
 }
 
 /* MEDIA QUAREY laptop*/
@@ -322,7 +386,7 @@ body {
   }
   .carosal_img {
     width: 100%;
-    height: 600px;
+    height: 112.5%;
     background: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -345,7 +409,7 @@ body {
   }
   .logo_brand {
     height: 80px;
-    width: 200px;
+    width: 100%;
   }
   .header_btn {
     padding-left: 200px;
@@ -468,5 +532,38 @@ body {
     padding-right: 50px;
     font-size: 14px;
     color: aliceblue;
+  }
+  .details_menu {
+    display: flex;
+    flex-direction: row;
+  }
+  .body_section_2 {
+    padding-left: 10px;
+  }
+  .play_apple_store img {
+    height: 40px;
+    width: 155px;
+    border-radius: 5px;
+  }
+  .play_apple_store p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: darkgray;
+  }
+  .phone_pic img {
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 300px;
+    height: 450px;
+  }
+  .phone_pic {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .phone_1 {
+    padding-bottom: -100px !important;
   }
 }
