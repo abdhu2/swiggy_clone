@@ -253,6 +253,11 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.footer_logo_part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* MEDIA QUAREY i pad*/
 
 @media (min-width: 768px) {
@@ -681,6 +686,9 @@ footer {
     padding-top: 20px;
     color: darkgray;
   }
+  .play_apple_store {
+    padding-left: 30px;
+  }
   .phone_pic img {
     padding-top: 0;
     margin-top: 0;
@@ -767,5 +775,13 @@ footer {
   .footer_img {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  .footer_logo_part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .footer_logo_part h4 {
+    padding-top: 15px !important;
   }
 }
